@@ -163,7 +163,6 @@ ul {
 .flex-container4 {
     display: flex;
     flex-direction: row;
-    background-color: lightgrey;
     width: 100%;
     height: 500px;
     justify-content: center;
@@ -173,13 +172,22 @@ ul {
 .bgsec3-bg1 {
     width: 20%;
     height: 420px;
-    background-color: lightblue;
+    
 }
 
 .bgsec3-bg2 {
     width: 50%;
     height: 420px;
-    background-color: pink;
+    background-image: url("../img/item2.svg");
+    background-repeat: no-repeat;
+}
+.bgsec2-bgg{
+    width: 50%;
+    min-height: 420px;
+}
+.bgsec2-bgc{
+    width: 20%;
+    min-height: 420px;
 }
 
 .flex-container5 {
