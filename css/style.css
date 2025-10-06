@@ -153,14 +153,15 @@ ul {
 .bgsec2-bg2 {
     width: 20%;
     min-height: 420px;
-    
+
 }
 
 .item1 {
-    font-size:2.5rem;
-    margin-top:50px;
+    font-size: 2.5rem;
+    margin-top: 50px;
 }
-.item-text{
+
+.item-text {
     line-height: 1.8;
 }
 
@@ -177,7 +178,7 @@ ul {
 .bgsec3-bg1 {
     width: 20%;
     min-height: 420px;
-    
+
 }
 
 .bgsec3-bg2 {
@@ -186,7 +187,8 @@ ul {
     background-image: url("../img/item2.svg");
     background-repeat: no-repeat;
 }
-.bgsec2-bgg{
+
+.bgsec2-bgg {
     width: 50%;
     min-height: 420px;
     background-image: url("../img/item3.svg");
@@ -194,7 +196,7 @@ ul {
     margin-top: 100px;
 }
 
-.bgsec2-bgc{
+.bgsec2-bgc {
     margin-top: 100px;
     width: 20%;
     min-height: 420px;
@@ -210,42 +212,46 @@ ul {
 }
 
 .bgsec4 {
-    margin-top:100px;
+    margin-top: 100px;
     width: 60%;
     height: 600px;
     background-repeat: no-repeat;
     white-space: nowrap;
 }
-    
-.item4-text{
-    width:50%;
-    min-height:80px;
+
+.item4-text {
+    width: 50%;
+    min-height: 80px;
 }
-.stelle{
-    width:100%;
-    min-height:80px;
+
+.stelle {
+    width: 100%;
+    min-height: 80px;
     background-image: url("../img/stars.svg");
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top:100px;
+    margin-top: 100px;
 }
+
 .scarica-container {
-  text-align: center;
-  margin-top: 20px;
+    text-align: center;
+    margin-top: 20px;
 }
+
 .scarica1 {
-  border: none;
-  text-decoration: none;
-  color: white;
-  border-radius: 15px;
-  background-color: lightblue;
-  padding: 10px 20px;
-  font-size: 1.2rem;
-  display: inline-block;
+    border: none;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    background-color: lightblue;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    display: inline-block;
 }
+
 .flex-container6 {
     display: flex;
     flex-direction: row;
@@ -254,61 +260,113 @@ ul {
 }
 
 .bg-footer1 {
-    margin-top:100px;
+    margin-top: 100px;
     width: 20%;
     height: 420px;
     margin-left: 20%;
-    background-color:black;
+    background-color: black;
     color: lightblue;
-    
 
 
+
 }
-.bg-lightblue{
-    text-align: center;
-    margin-top:50px;
+
+.bg-lightblue {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 0px;
+    color: lightblue;
 }
-.ita{
-    margin-left:30px;
+
+.ita {
+    margin-left: 30px;
 }
+
+.text,
+.ita {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon {
+    margin-left: 30px;
+    padding-right: 5px;
+}
+
+
 
 .bg-footer2 {
-    margin-top:100px;
+    margin-top: 100px;
     width: 10%;
     height: 420px;
-    background-color:black;
-    
+    background-color: black;
 
+}
 
+.bg-footer2 ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    color:white;
+    justify-content: flex-start;
 }
 
 .bg-footer3 {
-    margin-top:100px;
+    margin-top: 100px;
     width: 10%;
     height: 420px;
     background-color: black;
-    
-
-
 }
-
+.bg-footer3 ul{
+     display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    color:white;
+    justify-content: flex-start;
+}
+.bg-footer4 ul{
+     display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+    color:white;
+    justify-content: flex-start;
+}
 .bg-footer4 {
-    margin-top:100px;
+    margin-top: 100px;
     width: 10%;
     height: 420px;
     background-color: black;
-    
+
 
 
 }
 
 .bg-footer5 {
-    margin-top:100px;
+    margin-top: 100px;
     width: 10%;
     height: 420px;
-    background-color: black;
+    background-color:black;
 
 
+}
+.bg-footer5 ul{
+     display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    color:white;
+    justify-content: flex-start;
 }
 
 .ultimate-footer {
@@ -325,7 +383,7 @@ ul {
 .ultimate-container {
     display: flex;
     flex-direction: row;
-    background-color: lightcyan;
+    background-color: rgba(0, 0, 0, 0.442);
     width: 60%;
     height: 50px;
     justify-content: space-between;
@@ -334,13 +392,24 @@ ul {
 }
 
 .ultimate-elem1 {
-    width: 20px;
-    height: 20px;
-    background-color: pink;
+    width:25%;
+    min-height:30px;
+    background-image: url("../img/logo.svg");
+    background-repeat: no-repeat;
 }
 
 .ultimate-elem2 {
     width: 20px;
     height: 20px;
     background-color: pink;
+}
+.registrati {
+    border: none;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    background-color: lightblue;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    display: inline-block;
 }
